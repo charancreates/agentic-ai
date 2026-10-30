@@ -18,23 +18,20 @@ model = os.getenv("MODEL")
 
 
 job_description="""
-BE/BTech/MCA or equivalent technical education.
+ What makes you an ideal candidate 
 
-Strong programming fundamentals and problem-solving ability.
+ Strong experience in doing software development using AI tools like Cursor 
+ Hands-on exposure to Full-Stack and API development 
+ Understanding of Microservices, Kubernetes, Containers, and Multi-tenant architecture 
+ Expert-level knowledge in Python and ability to do Test Driven Development. 
+ Working knowledge in creating cloud services 
+ Working knowledge in Linux 
 
-Working knowledge of at least one language such as Python, JavaScript/TypeScript, Java or similar.
+Desired Skills
 
-Basic understanding of APIs, databases, Git and Linux.
-
-Curiosity about cloud, infrastructure, automation, Kubernetes and AI.
-
-Ability to learn unfamiliar technologies independently and ask good technical questions.
-
-Evidence that you build things: academic projects, GitHub work, internships, hackathons or personal projects.
-
-What Matters More Than a Long Skills List
-
-Fundamentals + curiosity + learning speed + ownership + ability to turn an idea into working software.
+ Angular 
+ Database programming (relational/non-relational) 
+ Networking concepts 
 """
 
 class JobDescription(BaseModel):
