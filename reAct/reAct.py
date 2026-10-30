@@ -104,6 +104,7 @@ def run_agent(question):
         print(answer)
         
         if "Final Answer" in answer:
+            print(messages)
             break
         
         # find the action
